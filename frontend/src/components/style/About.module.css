@@ -1,0 +1,52 @@
+.content{
+    grid-area: cont;
+    width: 50vw;
+}
+
+.greeting{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.profile{
+    text-align: center;
+}
+
+.mePic{
+    grid-area: pic;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.seperateContent{
+    display: grid;
+    grid-template-areas: 'pic cont';
+    background-image: radial-gradient(ellipse at top left, rgb(255, 255, 255), rgb(95, 93, 93));
+}
+
+.contact{
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50px;
+    color: #D9D9D9;
+}
+.linkedin{
+    display: inline;
+}
+.mail{
+    display: inline;
+    /* padding-left: 10vw; */
+}
+
+li {
+    font-weight: bold;
+}
